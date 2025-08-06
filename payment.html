@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="icon" href="images/Fevicon.png" type="image/png">
+    <link rel="stylesheet" href="CSS/payment.css">
+    <link rel="stylesheet" href="CSS/all.css">
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="container">
+            <h2>
+                <img src="images/logo.png" alt="Logo" draggable="false"> MYHS &nbsp;&nbsp;&nbsp;<img class="pay"
+                    src="images/pay.png" alt="Logo" draggable="false">
+            </h2>
+            <div class="container-form">
+                <form action="confirm_payment.html">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Address</span>
+                            <input type="text" placeholder="Enter your address" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Visa Card Number</span>
+                            <input type="tel" placeholder="Enter your number" pattern="[0-9]{16}"
+                                title="Please enter a 16-digit" required>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Confirm">
+                    </div>
+                    <a href="cart.html">Back to cart</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

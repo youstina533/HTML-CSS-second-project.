@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="icon" href="images/Fevicon.png" type="image/png">
+    <link rel="stylesheet" href="CSS/payment_cash.css">
+    <link rel="stylesheet" href="CSS/all.css">
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="container">
+            <h2>
+                <img src="images/logo.png" alt="Logo" draggable="false"> MYHS &nbsp;&nbsp;&nbsp;<img class="pay"
+                    src="images/pay.png" alt="Logo" draggable="false">
+            </h2>
+            <div class="container-form">
+                <form action="confirm_payment_cash.html">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Address</span>
+                            <input type="text" placeholder="Enter your address" required>
+                        </div>
+                        <div class="input-box">
+                            <div class="bc">
+                                <h2><img src="images/logo.png" alt="Logo" draggable="false"> MYHS</h2>
+                                <span class="details">*Payments made in cash must be completed at the time of purchase
+                                    or
+                                    service delivery. <br>
+                                    *Only valid currency will be accepted. <br>
+                                    *Customers are encouraged to provide exact change whenever possible. <br>
+                                    *Change will be given in local currency only, and large denominations may not be
+                                    accepted. <br>
+                                    *A receipt will be issued for all cash payments upon completion of the transaction.
+                                    <br>
+                                    *Retain the receipt as proof of purchase for returns, exchanges, or
+                                    inquiries.</span>
+                            </div>
+                            <div class="input-group checkbox-group">
+                                <input type="checkbox" name="remember" id="remember" required>Accept Terms
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Confirm">
+                    </div>
+                    <a href="cart.html">Back to cart</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

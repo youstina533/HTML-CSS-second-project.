@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="images/Fevicon.png" type="image/png">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <form class="login-form" method="post" action="home.html">
+            <h2>
+                <img src=" images/logo.png" alt="Logo" style="width: 50px; height: auto;" draggable="false"> MYHS
+            </h2>
+            <div class="input-group">
+                <label for="username">Email</label>
+                <input type="email" id="username" name="username" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="input-group checkbox-group">
+                <input type="checkbox" name="remember" id="remember">remember
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p class="register-link">
+                Don't have an account? <a href="register.html">Register here</a>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
